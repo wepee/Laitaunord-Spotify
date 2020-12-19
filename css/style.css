@@ -27,6 +27,10 @@ h2 {
     margin: 50px;
 }
 
+.badge {
+    background: var(--green);
+}
+
 hr {
     width: 75%;
 }
@@ -45,10 +49,37 @@ hr {
     padding: 0 25px;
 }
 
-.cover {
-}
-
 .description {
     padding-left: 25px;
+}
 
+#parcours {
+    display: flex;
+    margin: 50px 50px;
+    align-items: center;
+}
+
+.timeline {
+    margin: 10px 50px;
+}
+
+.timelineRight {
+    border-left: 6px solid var(--green);
+    margin: 0 25px;
+    padding: 0 25px;
+}
+
+.timelineItem {
+    display: flex;
+    align-items: center;
+}
+
+footer{
+    text-align: center;
+    background: black;
+    padding: 3px;
+}
+
+footer > div {
+    padding: 15px;
 }
