@@ -10,8 +10,8 @@ body {
 }
 
 .jumbotron {
-    background: var(--gray);
-    background-size: cover;
+    background: rgb(60,60,60);
+    background: linear-gradient(180deg, rgba(60,60,60,1) 0%, rgba(24,24,24,1) 60%);
 }
 
 #heroBtn {
