@@ -61,7 +61,7 @@ hr {
     animation: scale-in-center .5s cubic-bezier(.25, .46, .45, .94) both
 }
 
-.timelineItem:nth-child(1) {
+.timelineItem:nth-child(1), #parcours > img {
     animation: scale-in-center .5s cubic-bezier(.25, .46, .45, .94) 300ms both
 }
 .timelineItem:nth-child(2) {
