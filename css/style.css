@@ -10,8 +10,8 @@ body {
 }
 
 .jumbotron {
-    background: rgb(60,60,60);
-    background: linear-gradient(180deg, rgba(60,60,60,1) 0%, rgba(24,24,24,1) 60%);
+    background: rgb(60, 60, 60);
+    background: linear-gradient(180deg, rgba(60, 60, 60, 1) 0%, rgba(24, 24, 24, 1) 60%);
 }
 
 #heroBtn {
@@ -55,18 +55,14 @@ hr {
 
 #parcours {
     display: flex;
-    margin: 50px 50px;
+    margin: 50px;
     align-items: center;
-}
-
-.timeline {
-    margin: 10px 50px;
 }
 
 .timelineRight {
     border-left: 6px solid var(--green);
     margin: 0 25px;
-    padding: 0 25px;
+    padding: 25px;
 }
 
 .timelineItem {
@@ -74,7 +70,20 @@ hr {
     align-items: center;
 }
 
-footer{
+.gallery {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.gallery > img {
+    max-width: 30%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+footer {
     text-align: center;
     background: black;
     padding: 3px;
