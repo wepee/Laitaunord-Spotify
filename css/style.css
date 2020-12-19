@@ -11,7 +11,7 @@ body {
 
 .jumbotron {
     background: rgb(60, 60, 60);
-    background: linear-gradient(180deg, rgba(60, 60, 60, 1) 0%, rgba(24, 24, 24, 1) 60%);
+    background: linear-gradient(180deg, rgba(60, 60, 60, 1) 0%, rgba(24, 24, 24, 1) 45%);
 }
 
 #heroBtn {
@@ -85,7 +85,7 @@ hr {
 
 footer {
     text-align: center;
-    background: black;
+    background: #181818;
     padding: 3px;
 }
 
