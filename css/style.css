@@ -1,0 +1,23 @@
+:root {
+    --black: #191414;
+    --gray: #181818;
+    --green: #1DB954;
+}
+
+body {
+    background: var(--black);
+}
+
+.jumbotron {
+    background: var(--gray);
+    color: white;
+}
+
+.btn{
+    background: var(--green);
+    color: white;
+}
+
+.musique{
+    display: flex;
+}
