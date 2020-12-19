@@ -6,11 +6,11 @@
 
 body {
     background: var(--black);
+    color: white;
 }
 
 .jumbotron {
     background: var(--gray);
-    color: white;
 }
 
 .btn{
@@ -20,4 +20,25 @@ body {
 
 .musique{
     display: flex;
+    flex-direction: row;
+    padding: 30px 0;
+}
+
+
+.musique>* {
+    flex: 1;
+}
+
+
+.icon{
+    padding: 0 25px;
+}
+
+.cover{
+    order: 1;
+}
+
+.description {
+    padding: 0 25px;
+    order: 2;
 }
