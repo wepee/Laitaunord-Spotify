@@ -64,15 +64,19 @@ hr {
 .timelineItem:nth-child(1), #parcours > img {
     animation: scale-in-center .5s cubic-bezier(.25, .46, .45, .94) 300ms both
 }
+
 .timelineItem:nth-child(2) {
     animation: scale-in-center .5s cubic-bezier(.25, .46, .45, .94) 450ms both
 }
+
 .timelineItem:nth-child(3) {
     animation: scale-in-center .5s cubic-bezier(.25, .46, .45, .94) 600ms both
 }
+
 .timelineItem:nth-child(4) {
     animation: scale-in-center .5s cubic-bezier(.25, .46, .45, .94) 750ms both
 }
+
 .timelineItem:nth-child(5) {
     animation: scale-in-center .5s cubic-bezier(.25, .46, .45, .94) 900ms both
 }
